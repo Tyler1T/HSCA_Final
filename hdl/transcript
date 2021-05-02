@@ -1,0 +1,42 @@
+# do tbl.do
+# Model Technology ModelSim SE-64 vlog 10.7e Compiler 2019.06 May 30 2019
+# Start time: 02:43:40 on May 02,2021
+# vlog rom_sbtm.sv tb.sv 
+# -- Compiling module rom_a0
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 02:43:40 on May 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 02:43:40 on May 02,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE-64 10.7e May 30 2019 Linux 5.4.0-72-generic
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.rom_a0(fast)
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# ** Note: $finish    : tb.sv(39)
+#    Time: 250 ns  Iteration: 0  Instance: /stimulus
+# End time: 02:43:40 on May 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
