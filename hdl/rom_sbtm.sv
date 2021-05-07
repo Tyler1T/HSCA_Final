@@ -1,6 +1,6 @@
 module rom_a0 (data, address);
 
-   input logic [4:0] address;   
+   input logic [4:0] address;
    output logic [7:0] data;
 
    // [7:0] indicates size of memory
@@ -9,10 +9,9 @@ module rom_a0 (data, address);
 
    initial
      begin
-	$readmemb("./a0.dat", memory);
+	        $readmemb("./a0.dat", memory);
      end
 
    assign data = memory[address];
 
 endmodule
-

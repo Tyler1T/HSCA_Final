@@ -1,7 +1,7 @@
 # Copyright 1991-2016 Mentor Graphics Corporation
-# 
+#
 # Modification by Oklahoma State University
-# Use with Testbench 
+# Use with Testbench
 # James Stine, 2008
 # Go Cowboys!!!!!!
 #
@@ -27,7 +27,7 @@ if [file exists work] {
 vlib work
 
 # compile source files
-vlog rom_sbtm.sv tb.sv
+vlog *.sv
 
 # start and run simulation
 vsim -voptargs=+acc work.stimulus
@@ -38,7 +38,7 @@ view wave
 # Diplays All Signals recursively
 add wave -hex -r /stimulus/*
 
--- Set Wave Output Items 
+-- Set Wave Output Items
 TreeUpdate [SetDefaultTree]
 WaveRestoreZoom {0 ps} {75 ns}
 configure wave -namecolwidth 150
@@ -50,6 +50,6 @@ configure wave -datasetprefix 0
 configure wave -rowmargin 4
 configure wave -childrowmargin 2
 
--- Run the Simulation 
+-- Run the Simulation
 run 800ns
 quit

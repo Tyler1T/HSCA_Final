@@ -7,61 +7,174 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 d/home/jstine/bk16/final
-T_opt
-Z1 !s110 1619941420
-V6ZHXeR3:^^RgXRLG;C>nZ0
-04 8 4 work stimulus fast 0
-=1-04d4c455214a-608e582c-70b27-be1f7
-o-quiet -auto_acc_if_foreign -work work +acc
-Z2 tCvgOpt 0
-n@_opt
-OL;O;10.7e;67
-vrom_a0
-Z3 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
-R1
+Z0 dC:/Users/Tyler/Documents/High Speed Computer Arithmetic/HSCA_Final/hdl
+vCSAM
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z2 !s110 1620404875
 !i10b 1
-!s100 @Gl?4_9zeA]=f[ni4I^]m1
-ITmLQbAAnR=AIS]h7PZ=JM2
-Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s100 jH<[3mFOC_LGa=9UU^TEF2
+IeTMmL@8<cCKWVJ2n<c`Ui0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 CSAM_sv_unit
+S1
+R0
+w1620404768
+8CSAM.sv
+FCSAM.sv
+L0 1
+Z4 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z5 !s108 1620404874.000000
+Z6 !s107 tb.sv|rom_sbtm.sv|partialProduct.sv|halfAdder.sv|fullAdder.sv|datapath.sv|CSAM.sv|
+Z7 !s90 -reportprogress|300|CSAM.sv|datapath.sv|fullAdder.sv|halfAdder.sv|partialProduct.sv|rom_sbtm.sv|tb.sv|
+!s101 -O0
+!i113 1
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@c@s@a@m
+vdatapath
+R1
+R2
+!i10b 1
+!s100 aF1K=?gQURD[bOJfMeE?72
+I?KR@Qe0k?e_Ed7QK2R@NT3
+R3
+!s105 datapath_sv_unit
+S1
+R0
+w1620404572
+8datapath.sv
+Fdatapath.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+!i113 1
+R8
+vfull_adder
+R1
+R2
+!i10b 1
+!s100 >HP@KS>dR`>DAl?TPGXnJ2
+ImK]CMhT:jGYL^JU7]3SWj1
+R3
+!s105 fullAdder_sv_unit
+S1
+R0
+w1619286679
+8fullAdder.sv
+FfullAdder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+!i113 1
+R8
+vhalf_adder
+R1
+R2
+!i10b 1
+!s100 K`X9J3OYW8WM75_zgcji90
+IJJgYWQKEl8FS[QCk7]89U1
+R3
+!s105 halfAdder_sv_unit
+S1
+R0
+w1619388062
+8halfAdder.sv
+FhalfAdder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+!i113 1
+R8
+vpartialProduct
+R1
+R2
+!i10b 1
+!s100 HLb68:96OXc^;ERg>QS1<1
+IGFnCGRSCEOghebCPQP7XM2
+R3
+!s105 partialProduct_sv_unit
+S1
+R0
+w1619117978
+8partialProduct.sv
+FpartialProduct.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+!i113 1
+R8
+npartial@product
+vrom_a0
+R1
+R2
+!i10b 1
+!s100 doN=W0KBgi`M?6@MMo[oi3
+Ic?7l3NQb;mae6R_5kTn7]0
+R3
 !s105 rom_sbtm_sv_unit
 S1
 R0
-w1619941390
+w1620402693
 8rom_sbtm.sv
 From_sbtm.sv
 L0 1
-Z5 OL;L;10.7e;67
+R4
 r1
 !s85 0
 31
-Z6 !s108 1619941420.000000
-Z7 !s107 tb.sv|rom_sbtm.sv|
-Z8 !s90 rom_sbtm.sv|tb.sv|
-!i113 0
-Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
+R5
+R6
+R7
+!s101 -O0
+!i113 1
+R8
 vstimulus
-R3
 R1
+R2
 !i10b 1
-!s100 X5ModNQQ<o8g1SG6PZ6YS0
-INJcM;j5ULAI3Fn1nV4e@N0
-R4
+!s100 Bc_z^KGc^zDCA@08oz:VD0
+I1lAcmldLnj>gzL441PmVf0
+R3
 !s105 tb_sv_unit
 S1
 R0
-w1619941417
+w1619999344
 8tb.sv
 Ftb.sv
 L0 15
-R5
+R4
 r1
 !s85 0
 31
+R5
 R6
 R7
+!s101 -O0
+!i113 1
 R8
-!i113 0
-R9
-R2
