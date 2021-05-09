@@ -10,7 +10,7 @@ cModel Technology
 Z0 dC:/Users/Tyler/Documents/High Speed Computer Arithmetic/HSCA_Final/hdl
 vCSAM
 Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
-Z2 !s110 1620404875
+Z2 !s110 1620523219
 !i10b 1
 !s100 jH<[3mFOC_LGa=9UU^TEF2
 IeTMmL@8<cCKWVJ2n<c`Ui0
@@ -26,9 +26,9 @@ Z4 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z5 !s108 1620404874.000000
-Z6 !s107 tb.sv|rom_sbtm.sv|partialProduct.sv|halfAdder.sv|fullAdder.sv|datapath.sv|CSAM.sv|
-Z7 !s90 -reportprogress|300|CSAM.sv|datapath.sv|fullAdder.sv|halfAdder.sv|partialProduct.sv|rom_sbtm.sv|tb.sv|
+Z5 !s108 1620523219.000000
+Z6 !s107 tb.sv|rom_sbtm.sv|partialProduct.sv|halfAdder.sv|fullAdder.sv|datapath.sv|RNE.sv|CSAM.sv|
+Z7 !s90 CSAM.sv|RNE.sv|datapath.sv|fullAdder.sv|halfAdder.sv|partialProduct.sv|rom_sbtm.sv|tb.sv|
 !s101 -O0
 !i113 1
 Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
@@ -37,13 +37,13 @@ vdatapath
 R1
 R2
 !i10b 1
-!s100 aF1K=?gQURD[bOJfMeE?72
-I?KR@Qe0k?e_Ed7QK2R@NT3
+!s100 hhMzLz6J;`_VGTD21:1@U2
+IkdK@gcSOmLV3G`=D7E5zz3
 R3
 !s105 datapath_sv_unit
 S1
 R0
-w1620404572
+w1620523091
 8datapath.sv
 Fdatapath.sv
 L0 1
@@ -130,17 +130,92 @@ R7
 !i113 1
 R8
 npartial@product
+vRNE16
+R1
+R2
+!i10b 1
+!s100 iG<2Uf=dAcomY@ZLFjYhb2
+I_h;13G@e=LI1^`:_R]_QP3
+R3
+Z9 !s105 RNE_sv_unit
+S1
+R0
+Z10 w1620521743
+Z11 8RNE.sv
+Z12 FRNE.sv
+L0 19
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+!i113 1
+R8
+n@r@n@e16
+vRNE18
+R1
+R2
+!i10b 1
+!s100 7jN>@E`IXWJJGYzn?g9h23
+I_mPe:`RMZdk>?LVkDd>GN1
+R3
+R9
+S1
+R0
+R10
+R11
+R12
+L0 10
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+!i113 1
+R8
+n@r@n@e18
+vRNE19
+R1
+R2
+!i10b 1
+!s100 P:[Lo_g2hRDFMViL5i1iY3
+IedEF@5Gb6?KQfbGglB_3@3
+R3
+R9
+S1
+R0
+R10
+R11
+R12
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+!i113 1
+R8
+n@r@n@e19
 vrom_a0
 R1
 R2
 !i10b 1
-!s100 doN=W0KBgi`M?6@MMo[oi3
-Ic?7l3NQb;mae6R_5kTn7]0
+!s100 `2aH1`gCJ6k^n3;326G7O1
+ICLL9z5oLJY]XcN=4>MKUi0
 R3
 !s105 rom_sbtm_sv_unit
 S1
 R0
-w1620402693
+w1620523194
 8rom_sbtm.sv
 From_sbtm.sv
 L0 1

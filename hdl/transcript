@@ -1,8 +1,11 @@
 # do tbl.do
 # Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 11:27:54 on May 07,2021
-# vlog -reportprogress 300 CSAM.sv datapath.sv fullAdder.sv halfAdder.sv partialProduct.sv rom_sbtm.sv tb.sv 
+# Start time: 20:20:19 on May 08,2021
+# vlog CSAM.sv RNE.sv datapath.sv fullAdder.sv halfAdder.sv partialProduct.sv rom_sbtm.sv tb.sv 
 # -- Compiling module CSAM
+# -- Compiling module RNE19
+# -- Compiling module RNE18
+# -- Compiling module RNE16
 # -- Compiling module datapath
 # -- Compiling module full_adder
 # -- Compiling module half_adder
@@ -11,10 +14,11 @@
 # -- Compiling module stimulus
 # 
 # Top level modules:
-# 	CSAM
+# 	RNE19
+# 	RNE16
 # 	datapath
 # 	stimulus
-# End time: 11:27:55 on May 07,2021, Elapsed time: 0:00:01
+# End time: 20:20:19 on May 08,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # //  ModelSim PE Student Edition 10.4a Apr  7 2015 
 # //
@@ -34,13 +38,26 @@
 # // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
 # // FOR HIGHER EDUCATION PURPOSES ONLY
 # //
-# vsim -do "tbl.do" 
-# Start time: 11:27:55 on May 07,2021
+# vsim -do "tbl.do" -c 
+# Start time: 20:20:20 on May 08,2021
 # Loading sv_std.std
 # Loading work.stimulus
 # Loading work.rom_a0
-# .main_pane.wave.interior.cs.body.pw.wf
+# ** Warning: (vsim-3015) tb.sv(27): [PCDPC] - Port size (30) does not match connection size (8) for port 'data'. The port definition is at: rom_sbtm.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/dut File: rom_sbtm.sv
+# ** Warning: (vsim-3015) tb.sv(27): [PCDPC] - Port size (8) does not match connection size (5) for port 'address'. The port definition is at: rom_sbtm.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/dut File: rom_sbtm.sv
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 43 of file "./table.bin". (Current address [128], address range [0:127])    : rom_sbtm.sv(13)
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/dut
 # ** Note: $finish    : tb.sv(39)
 #    Time: 250 ns  Iteration: 0  Instance: /stimulus
-# End time: 11:28:13 on May 07,2021, Elapsed time: 0:00:18
-# Errors: 0, Warnings: 0
+# End time: 20:20:21 on May 08,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 3

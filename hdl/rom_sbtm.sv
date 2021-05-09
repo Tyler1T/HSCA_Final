@@ -1,15 +1,16 @@
 module rom_a0 (data, address);
 
-   input logic [4:0] address;
-   output logic [7:0] data;
+   input logic [7:0] address;
+   output logic [29:0] data;
 
-   // [7:0] indicates size of memory
-   // [0:31] indicates 32 values of memory
-   logic [7:0] 	      memory[0:31];
+
+   // [29:0] indicates size of memory
+   // [0:127] indicates 128 values of memory
+   logic [29:0] 	      memory[0:127];
 
    initial
      begin
-	        $readmemb("./a0.dat", memory);
+	        $readmemb("./table.bin", memory);
      end
 
    assign data = memory[address];
